@@ -8,7 +8,7 @@
 	<meta name="viewport"
 		content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width" />
 	<link rel="stylesheet" href="style.css">
-	<script src="script.js"></script>
+	<script defer src="script.js"></script>
 	<title>Portfolio</title>
 </head>
 
@@ -20,7 +20,6 @@
 				<li><a href="#about" onclick="toggleMenu();">About</a></li>
 				<li><a href="#services" onclick="toggleMenu();">Services</a></li>
 				<li><a href="#projects" onclick="toggleMenu();">Projects</a></li>
-				<li><a href="#testimonials" onclick="toggleMenu();">Testimonials</a></li>
 				<li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
 			</ul>
 			<div class="themeSwitch">
@@ -31,6 +30,7 @@
 			<div class="topbar">
 				<a href="#" class="logo">Portfolio</a>
 				<div class="toggle">
+					<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAYFBMVEX///8AAADPz89LS0uWlpb5+fmFhYXHx8eSkpJnZ2ezs7Oqqqp3d3cWFhbk5OT19fU/Pz9aWlra2tqkpKTu7u4PDw+9vb1gYGB9fX0zMzMkJCQaGhqbm5s4ODjLy8tQUFACQSuFAAACZ0lEQVR4nO3d7VLCMBCF4VipfKMiAorI/d+lVmHQP7spyczObt/nCs4Za7RhSVICAAAAAAAAAAAAAAAAgAEYT6b3fkwn4371Nvs7f/ab/IIT67A3mmT2a4/WSW92bLMKLq1zFljmVHyzTlnkTS/4YJ2x0INWcGWdsNhKaTi1DlhsKhd8tM5XwaPYcGYdr4KZ2HBhHa+ChdjwyTpeBU9iw1freBW8ig2t01UhNny3TlfBu9jw2TpeBc9iw5F1vApGYsPGOl4FjdgwwGIqL6Upza0DFpsrDdPBOmGhg1Ywra0jFlqrDZ0/p+oz2nmxTlngJadgSmPrnDfL3hZufb5ELbL2Es82H942TY8fPba8z1aNH9r2EwAAAAAAAAAA8Kz9nI/8mH/2+dypsz1Zf5bU22nbo1/jc1zhoEzSXPkdZlfH2H/trHMW2OUU9PkJ94U8IPzD+6S3POX9rbVOWEz7s+F3lbnQVhvrfBXIBf0OC13JY0P+H1LtMb23jlfBSWzo+duVF0uxoXW6Kgb+M4z/exh/LY3/9zDCUiMXDPCYav+Xxn+3iP9+OIB3/AHs03hebTL32lJqfH5ZNn+/NMXf8+5E/9wCAAAAAAAAAAB4EvucqOhnfYU/r83v2FDmmXvhz00Mf/Zl/PNLfX6p60o9g9b3M9rRntPwZ0HHP8/b611Wf8lnssc/V9/nuNd/8t0I1umqEBv6X0q1xTT+PTM+X5v+k8eEvU95d+RJ7/h3dsW/d20Ad+c5HmP/lTHMHv4OywHcQxr/Ltnk9x0q9z7gNIA7nTvB7+UGAAAAAAAAAAAAAAAAAJ++ACLpVB+zWmM6AAAAAElFTkSuQmCC">
 					<i class="fa fa-bars" aria-hidden="true"></i>
 				</div>
 			</div>
@@ -43,11 +43,18 @@
 					</div>
 					<h3>Abel Madera</h3>
 					<p>Fullstack Software Engineer</p>
-					<a href="#" class="btn">View My Resume</a>
+					<a href="https://docs.google.com/document/d/17a_ZJFC6T-4YI5QqcbgiWlJN3jaGun67TmTt_7-uL-I/edit?usp=sharing"
+						class="btn">View My Resume</a>
 					<ul class="socialMedia">
-						<li><a href="#"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
-						<li><a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
-						<li><a href="#"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a></li>
+						<li><a href="https://www.linkedin.com/in/abel-madera/"> <img
+									src="https://www.edigitalagency.com.au/wp-content/uploads/Linkedin-logo-icon-png.png"><i
+									class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
+						<li><a href="https://twitter.com/abeldagoat"><img
+									src="https://img.icons8.com/color/100/twitter--v1.png"><i class="fab fa-twitter"
+									aria-hidden="true"></i></a></li>
+						<li><a href="https://github.com/AbelMadera"><img
+									src="https://cdn-icons-png.flaticon.com/512/779/779088.png"><i
+									class="fab fa-linkedin-in" aria-hidden="true"></i></a></li>
 						<li><a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
 					</ul>
 				</div>
@@ -60,8 +67,10 @@
 				</div>
 				<div class="content">
 					<div class="textBox">
-						<p>I am a software engineer who knows how to work on the front end as well as the backend. I
-							have experience with the following:</p>
+						<p>I am a software engineer who knows how to work on the front end as well as the backend. My
+							passion for technology and dedication to lifelong learning drive me to stay
+							up-to-date with the latest industry trends and best practices,
+							I have experience with the following:</p>
 						<ul>
 							<li>HTML</li>
 							<li>CSS</li>
@@ -71,9 +80,15 @@
 							<li>Express</li>
 							<li>Node</li>
 						</ul>
-						<p>I graduated from General Assembly with a degree in software engineering on February 25, 2023.
-							I am a MERN Stack developer which means I mainly use a stack compiled of MongoDB, Express,
-							React, Node</p>
+						<p>As a fullstack software engineer specializing in the MERN stack,
+							my mission is to create high-quality, scalable, and efficient applications that deliver
+							exceptional user experiences. With my expertise in building robust backend systems and
+							dynamic front-end interfaces using MongoDB, Express, React, and Node.js, I strive to meet
+							the unique needs of every project and deliver innovative solutions that exceed client
+							expectations. ensuring that every
+							application I create is optimized for performance, security, and maintainability.
+							Ultimately, my goal is to empower businesses and individuals to achieve their goals through
+							cutting-edge technology that enhances productivity, efficiency, and user satisfaction.</p>
 					</div>
 					<div class="imageBox">
 						<img src="./images/MERN.png">
@@ -90,24 +105,25 @@
 				<div class="content">
 					<div class="serviceBox">
 						<img src="https://img.icons8.com/cotton/64/000000/web-design--v2.png" />
-						<h2>Web Design</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas blandit finibus nisl. Donec
-							non tempus augue. Nullam
-							metus lorem, convallis non tempus et, aliquet ac nisl. </p>
+						<h2>Website Development</h2>
+						<p>Having a website is a smart investment for anyone looking to establish a strong online
+							presence and grow their business or personal brand. As a skilled web developer and software
+							engineer, I can help you create a website that meets your needs and exceeds your
+							expectations. </p>
 					</div>
 					<div class="serviceBox">
 						<img src="https://img.icons8.com/cotton/64/000000/code.png" />
-						<h2>Web Development</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas blandit finibus nisl. Donec
-							non tempus augue. Nullam
-							metus lorem, convallis non tempus et, aliquet ac nisl. </p>
+						<h2>Web Apps</h2>
+						<p>A web app can be a powerful tool for achieving your business or personal goals, providing
+							enhanced functionality, scalability, automation, and data analysis. I can build a full
+							mobile responsive web app using React and customize it to your liking. </p>
 					</div>
 					<div class="serviceBox">
 						<img src="https://cdn-icons-png.flaticon.com/512/0/191.png" />
 						<h2>Mobile Apps</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas blandit finibus nisl. Donec
-							non tempus augue. Nullam
-							metus lorem, convallis non tempus et, aliquet ac nisl. </p>
+						<p>A mobile app can be a powerful tool for engaging your users, building your brand, and
+							generating revenue. As a skilled software engineer, I can help you design and develop a
+							mobile app that meets your needs and exceeds your expectations.</p>
 					</div>
 
 				</div>
@@ -118,13 +134,12 @@
 			<section class="projects adjust" id="projects">
 				<div class="title">
 					<h2>Recent Work</h2>
-					<p>Morbi at semper nulla. Proin vel porta odio. Mauris ut consectetur libero.</p>
+					<p>These are all the projects ive done/working on at the moment!</p>
 				</div>
 				<div class="content">
 					<div class="workBox">
 						<div class="imageBox">
-							<img
-								src="/images/Screenshot 2023-01-29 at 7.43.54 PM.png">
+							<img src="/images/Screenshot 2023-01-29 at 7.43.54 PM.png">
 						</div>
 						<div class="textBox">
 							<a href="https://earnest-meringue-7bef94.netlify.app">Flappy Mario</a>
@@ -132,8 +147,7 @@
 					</div>
 					<div class="workBox">
 						<div class="imageBox">
-							<img
-								src="https://geometrydash.io/data/image/pacman-30th-anniversary.jpg">
+							<img src="https://geometrydash.io/data/image/pacman-30th-anniversary.jpg">
 						</div>
 						<div class="textBox">
 							<a href="https://profound-bombolone-1d1766.netlify.app">Pac-Man</a>
@@ -141,23 +155,21 @@
 					</div>
 					<div class="workBox">
 						<div class="imageBox">
-							<img
-								src="/images/Screenshot 2023-02-01 at 9.34.35 PM.png">
+							<img src="/images/Screenshot 2023-02-01 at 9.34.35 PM.png">
 						</div>
 						<div class="textBox">
-							<a href="https://comfy-halva-7c7dbb.netlify.app">Movie Search App</a>
-						</div>
-					</div>
-					<!-- <div class="workBox">
-						<div class="imageBox">
-							<img
-								src="https://images.unsplash.com/photo-1615751072497-5f5169febe17?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=675&q=80">
-						</div>
-						<div class="textBox">
-							<h3>Project 04</h3>
+							<a href="https://coruscating-frangollo-864b60.netlify.app/">Movie Search App</a>
 						</div>
 					</div>
 					<div class="workBox">
+						<div class="imageBox">
+							<img src="https://github.com/moris96/group-tumblr/raw/main/public/images/userpage.png">
+						</div>
+						<div class="textBox">
+							<a href="https://coruscating-frangollo-864b60.netlify.app/">Tumblr Clone</a>
+						</div>
+					</div>
+					<!-- <div class="workBox">
 						<div class="imageBox">
 							<img
 								src="https://images.unsplash.com/photo-1615751072497-5f5169febe17?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=675&q=80">
@@ -262,8 +274,8 @@
 			<!-- Contact -->
 			<section class="contact adjust" id="contact">
 				<div class="title">
-					<h2>Let's Say Hi</h2>
-					<p>Morbi at semper nulla. Proin vel porta odio. Mauris ut consectetur libero.</p>
+					<h2>Contact Me</h2>
+					<p>Enter your name and contact info below and push send!</p>
 				</div>
 				<div class="content">
 					<div class="contactForm">
@@ -287,7 +299,7 @@
 
 			<!-- Copyright -->
 			<div class="copyright">
-				<p>Copyright 2021 Because Yes. All rights non reserved.</p>
+				<p>Abel Madera 2023© </p>
 			</div>
 
 		</div>
